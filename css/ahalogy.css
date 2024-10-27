@@ -1,0 +1,73 @@
+input.checkbox, input.textinput, select.select, textarea.textinput {
+    display:block;
+    margin: 5px 3px 10px 0;
+    padding: 5px;
+}
+
+.ahalogy_content_wrapper {
+	margin: 10px 0 5px 0;
+  width: 650px;
+}
+
+.ahalogy_content_wrapper p,
+.ahalogy_content_wrapper li {
+	max-width: 600px;
+}
+
+.ahalogy_content_cell {
+	display: table-cell;
+	height: 500px;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+}
+
+.container {
+    display: table
+}
+
+.left, .right {
+    display: table-cell
+}
+
+.label {
+  width: 200px;
+  margin: 5px 0;
+  background-color: transparent;
+}
+
+.aside {
+  font-style:italic;
+  padding:0px;
+  margin:0px;
+}
+
+.sponsoredContentIndicator {
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  background-color: #E6E5E4;
+  border-radius: 99999px;
+  -webkit-border-radius: 99999px;
+  -moz-border-radius: 99999px;
+  vertical-align: top;
+  margin-right: .25em;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  position: relative;
+  top: .1875em;
+}
+
+.sponsoredContentIndicator--showcased {
+  background-color: #17A870;
+}
+
+.sponsoredContentIndicator--removed {
+  background-color: transparent;
+  border: 3px solid #C31230;
+}
+
+.sub-text {
+  margin-top: 10px;
+}
